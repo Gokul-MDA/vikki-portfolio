@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.works__mainHeading {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.works__mainHeading > h3 {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 52px;
+  color: #1300ed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.works__mainHeading > h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -40px;
+  padding: 0px 300px 20px 320px;
+  color: #373d42;
+  font-family: Poppins;
+  font-weight: 400;
+  text-align: center;
+}
+
+.works__mainHeading > h5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -20px;
+  font-size: 14px;
+  font-family: Poppins;
+  font-weight: 600;
+}
+
+.content-h3 {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 36px;
+  color: #1300ed;
+}
+
+.content-h5 {
+  color: #373d42;
+  margin-top: -35px;
+  font-family: Poppins;
+  font-weight: 300;
+}
+
+.content-h4 {
+  color: #373d42;
+  font-family: Poppins;
+  font-weight: 400;
+}
+
+.works__button > button {
+  border: none;
+  background-color: #1300ed;
+  color: white;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 12px;
+  height: 50px;
+  width: 120px;
+  border-radius: 5px;
+}
+
+.works__button :hover {
+  cursor: pointer;
+}
+
+.works__imageLeft {
+  display: flex;
+  flex-flow: row;
+}
+
+.works__drona > img {
+  height: 500px;
+  width: 500px;
+  margin-left: 110px;
+}
+
+.works__drona-content {
+  margin-left: 130px;
+  margin-top: 100px;
+  margin-right: 90px;
+}
+
+.works__cooKoo > img {
+  height: 550px;
+  width: 570px;
+  margin-right: 100px;
+}
+
+.works__cooKoo-content {
+  margin-left: 150px;
+  margin-top: 100px;
+  margin-right: 100px;
+}
+
+.works__dronaSoftware > img {
+  height: 610px;
+  width: 610px;
+  margin-left: 90px;
+}
+
+.works__dronaSoftware-content {
+  margin-left: 60px;
+  margin-top: 150px;
+  margin-right: 120px;
+}
+
+.works__imageRight {
+  display: flex;
+  flex-flow: row;
+}
+
+.works__dockt > img {
+  height: 570px;
+  width: 600px;
+  margin-right: 100px;
+}
+
+.works__dockt-content {
+  margin-left: 150px;
+  margin-top: 150px;
+  margin-right: 100px;
+}

@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap");
+
+.lets-talk {
+  margin-top: -200px;
+  height: 600px;
+}
+
+.works__mainHeading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.works__mainHeading > h3 {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 52px;
+  color: #1300ed;
+}
+
+.works__mainHeading > h4 {
+  margin-top: -40px;
+  color: #373d42;
+  font-family: Poppins;
+  font-weight: 400;
+  text-align: center;
+}
+
+.talk {
+  margin-left: 300px;
+  /* height: 500px; */
+  margin-top: -200px;
+}
+
+.form-text {
+  padding-top: 15px;
+}
+
+.form-text > label {
+  position: relative;
+  top: -25px;
+  left: 60px;
+  font-family: Poppins;
+  font-weight: 400;
+  background-color: white;
+  color: #1300ed;
+}
+
+.form-text > input {
+  border-color: #1300ed;
+  border-radius: 5px;
+  height: 50px;
+  width: 60%;
+}
+
+.form-textArea {
+  padding-top: 15px;
+  margin-left: -25px;
+}
+
+.form-textArea > label {
+  position: relative;
+  top: -100px;
+  left: 85px;
+  font-family: Poppins;
+  font-weight: 400;
+  background-color: white;
+  color: #1300ed;
+}
+
+.form-textArea > textarea {
+  border-color: #1300ed;
+  border-radius: 5px;
+  border-width: 2px;
+  height: 100px;
+  width: 59%;
+}
+
+.form-button {
+  height: 50px;
+  width: 61%;
+  background-color: #1300ed;
+  color: white;
+  font-family: Poppins;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  margin-left: 50px;
+}
