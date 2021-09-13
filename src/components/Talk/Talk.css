@@ -89,3 +89,99 @@
   border-radius: 5px;
   margin-left: 50px;
 }
+
+@media screen and (max-width: 768px) {
+  .lets-talk {
+    width: 80%;
+    margin-top: 0px;
+  }
+
+  .works__mainHeading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .works__mainHeading > h3 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 52px;
+    color: #1300ed;
+  }
+
+  .works__mainHeading > h4 {
+    margin-top: -40px;
+    color: #373d42;
+    font-family: Poppins;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .talk {
+    margin-left: 0px;
+    margin-top: -90px;
+  }
+
+  .form-text {
+    padding-top: 15px;
+  }
+
+  .form-text > label {
+    position: relative;
+    top: -18px;
+    left: 40px;
+    font-family: Poppins;
+    font-size: 9px;
+    font-weight: 400;
+    background-color: white;
+    color: #1300ed;
+  }
+
+  .form-text > input {
+    border-color: #1300ed;
+    border-radius: 5px;
+    border-width: 1px;
+    height: 30px;
+    width: 85%;
+  }
+
+  .form-textArea {
+    padding-top: 0px;
+    margin-left: 0px;
+  }
+
+  .form-textArea > label {
+    position: relative;
+    top: 8px;
+    left: 40px;
+    font-size: 9px;
+    font-family: Poppins;
+    font-weight: 400;
+    background-color: white;
+    color: #1300ed;
+  }
+
+  .form-textArea > textarea {
+    margin-left: 28px;
+    border-width: 1px;
+    border-color: #1300ed;
+    border-radius: 5px;
+    height: 60px;
+    width: 85%;
+  }
+
+  .form-button {
+    height: 35px;
+    width: 85%;
+    background-color: #1300ed;
+    color: white;
+    font-size: 9px;
+    font-family: Poppins;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+}

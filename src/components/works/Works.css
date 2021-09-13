@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 .works__mainHeading {
-  margin-top: 200px;
-  margin-bottom: 200px;
+  height: 100vh;
+  background-image: url("../../images/works-bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .works__mainHeading > h3 {
@@ -129,4 +131,142 @@
   margin-left: 150px;
   margin-top: 150px;
   margin-right: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .works1 {
+    width: 95%;
+  }
+  .works__mainHeading {
+    background-image: url("../../images/works-bg.png");
+
+    margin-top: 00px;
+    margin-bottom: 100px;
+  }
+
+  .works__mainHeading > h3 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 14px;
+    color: #1300ed;
+    display: flex;
+    align-items: center;
+  }
+
+  .works__mainHeading > h4 {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    margin-top: -10px;
+    padding: 0px 0px 0px 0px;
+    color: #373d42;
+    font-family: Poppins;
+    font-weight: 400;
+  }
+
+  .works__mainHeading > h5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+    font-size: 10px;
+    font-family: Poppins;
+    font-weight: 600;
+  }
+
+  .content-h3 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 22px;
+    color: #1300ed;
+  }
+
+  .content-h5 {
+    color: #373d42;
+    margin-top: -15px;
+    font-size: 9px;
+    font-family: Poppins;
+    font-weight: 300;
+  }
+
+  .content-h4 {
+    color: #373d42;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .works__button > a > button {
+    border: none;
+    background-color: #1300ed;
+    color: white;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 9px;
+    height: 37px;
+    width: 90px;
+    border-radius: 5px;
+  }
+
+  .works__button :hover {
+    cursor: pointer;
+  }
+
+  .works__imageLeft {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .works__drona > img {
+    height: 200px;
+    width: 200px;
+    margin-left: 60px;
+  }
+
+  .works__drona-content {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 0px;
+  }
+
+  .works__cooKoo > img {
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
+  }
+
+  .works__cooKoo-content {
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-right: 0px;
+  }
+
+  .works__dronaSoftware > img {
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
+  }
+
+  .works__dronaSoftware-content {
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-right: 0px;
+  }
+
+  .works__imageRight {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .works__dockt > img {
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
+  }
+
+  .works__dockt-content {
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-right: 0px;
+  }
 }

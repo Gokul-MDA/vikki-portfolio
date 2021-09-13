@@ -1,5 +1,5 @@
 import React from "react";
-import { Element, Link } from "react-scroll";
+import { Link } from "react-scroll";
 import "./Navbar.css";
 import icon from "../../images/logo.png";
 import twitter from "../../images/twitter.png";
@@ -20,7 +20,7 @@ function navbar() {
           </Link>
         </div>
         <div className="navBar__menuItems">
-          <Link activeClass="active" to="works" smooth={true} offset={-250}>
+          <Link activeClass="active" to="works" smooth={true} offset={0}>
             WORKS
           </Link>
         </div>
@@ -36,16 +36,16 @@ function navbar() {
         </div>
       </div>
       <div className="navBar__socialIcon">
-        <a href="#">
+        <a href="https://www.twitter.com">
           <img src={twitter} alt="" />
         </a>
-        <a href="#">
+        <a href="https://www.linkedin.com">
           <img src={linkedIn} alt="" />
         </a>
-        <a href="#">
+        <a href="https://www.facebook.com">
           <img src={facebook} alt="" />
         </a>
-        <a href="#">
+        <a href="https://www.instagram.com">
           <img src={instagram} alt="" />
         </a>
       </div>

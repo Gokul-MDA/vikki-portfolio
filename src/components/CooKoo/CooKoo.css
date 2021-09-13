@@ -1,0 +1,16 @@
+.cookoo {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cookoo > img {
+  width: 100%;
+}
+
+@media screen and (max-width: 786px) {
+  .cookoo {
+    width: 100%;
+    height: 100%;
+  }
+}

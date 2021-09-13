@@ -31,7 +31,9 @@ function Works() {
               Designed for schools and colleges.
             </h4>
             <div className="works__button">
-              <button>SEE MORE</button>
+              <a href="https://www.figma.com/proto/MchiY0fxetJEkZ02JEv1WF/Drona-app?page-id=0%3A1&node-id=30%3A20512&viewport=241%2C48%2C0.04&scaling=scale-down-width">
+                <button>SEE MORE</button>
+              </a>
             </div>
           </div>
         </div>
@@ -65,7 +67,9 @@ function Works() {
               Designed for schools and colleges.
             </h4>
             <div className="works__button">
-              <button>SEE MORE</button>
+              <a href="https://www.figma.com/proto/MyyhYOt5eIh5yTDrvt0rtF/Drona?page-id=0%3A1&node-id=8%3A2&viewport=241%2C48%2C0.11&scaling=scale-down-width">
+                <button>SEE MORE</button>
+              </a>
             </div>
           </div>
         </div>
@@ -79,7 +83,9 @@ function Works() {
               awsome user interface.
             </h4>
             <div className="works__button">
-              <button>SEE MORE</button>
+              <a href="https://dockt-head.vercel.app/">
+                <button>SEE MORE</button>
+              </a>
             </div>
           </div>
           <div className="works__dockt">
