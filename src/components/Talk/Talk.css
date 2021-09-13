@@ -2,36 +2,43 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap");
 
 .lets-talk {
-  margin-top: -200px;
+  margin-top: 020px;
   height: 600px;
 }
 
-.works__mainHeading {
+.talks__mainHeading {
+  background-image: url(../../images/talk-bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.talks__mainHeading > h3 {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 52px;
+  color: #1300ed;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.works__mainHeading > h3 {
-  font-family: Poppins;
-  font-weight: 700;
-  font-size: 52px;
-  color: #1300ed;
-}
-
-.works__mainHeading > h4 {
+.talks__mainHeading > h4 {
   margin-top: -40px;
   color: #373d42;
   font-family: Poppins;
   font-weight: 400;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .talk {
   margin-left: 300px;
   /* height: 500px; */
-  margin-top: -200px;
+  margin-top: 00px;
 }
 
 .form-text {
@@ -92,35 +99,36 @@
 
 @media screen and (max-width: 768px) {
   .lets-talk {
-    width: 80%;
+    width: 100%;
     margin-top: 0px;
   }
 
-  .works__mainHeading {
+  .talks__mainHeading {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
 
-  .works__mainHeading > h3 {
+  .talks__mainHeading > h3 {
     font-family: Poppins;
     font-weight: 700;
-    font-size: 52px;
+    font-size: 22px;
     color: #1300ed;
   }
 
-  .works__mainHeading > h4 {
-    margin-top: -40px;
+  .talks__mainHeading > h4 {
+    margin-top: -10px;
     color: #373d42;
     font-family: Poppins;
     font-weight: 400;
     text-align: center;
+    font-size: 12px;
   }
 
   .talk {
     margin-left: 0px;
-    margin-top: -90px;
+    margin-top: 0px;
   }
 
   .form-text {

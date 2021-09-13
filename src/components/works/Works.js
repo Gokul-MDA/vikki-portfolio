@@ -10,14 +10,16 @@ function Works() {
   return (
     <div>
       <Element name="works" className="works1">
-        <div className="works__mainHeading">
-          <h3>" Design is thinking made Visual "</h3>
-          <h4>
-            The designer does not begin with some preconceived idea. Rather, the
-            idea is the result of careful study and observation, and the design
-            a product of that idea.
-          </h4>
-          <h5>Here's a few work that I'd like to share.</h5>
+        <div className="works-bg">
+          <div className="works__mainHeading">
+            <h3>" Design is thinking made Visual "</h3>
+            <h4>
+              The designer does not begin with some preconceived idea. Rather,
+              the idea is the result of careful study and observation, and the
+              design a product of that idea.
+            </h4>
+            <h5>Here's a few work that I'd like to share.</h5>
+          </div>
         </div>
         <div className="works__imageLeft">
           <div className="works__drona">
@@ -32,7 +34,7 @@ function Works() {
             </h4>
             <div className="works__button">
               <a href="https://www.figma.com/proto/MchiY0fxetJEkZ02JEv1WF/Drona-app?page-id=0%3A1&node-id=30%3A20512&viewport=241%2C48%2C0.04&scaling=scale-down-width">
-                <button>SEE MORE</button>
+                <button className="works__button">SEE MORE</button>
               </a>
             </div>
           </div>
@@ -48,7 +50,7 @@ function Works() {
               user experience.
             </h4>
             <div className="works__button">
-              <button>SEE MORE</button>
+              <button className="works__button">SEE MORE</button>
             </div>
           </div>
           <div className="works__cooKoo">
@@ -68,7 +70,7 @@ function Works() {
             </h4>
             <div className="works__button">
               <a href="https://www.figma.com/proto/MyyhYOt5eIh5yTDrvt0rtF/Drona?page-id=0%3A1&node-id=8%3A2&viewport=241%2C48%2C0.11&scaling=scale-down-width">
-                <button>SEE MORE</button>
+                <button className="works__button">SEE MORE</button>
               </a>
             </div>
           </div>
@@ -84,7 +86,7 @@ function Works() {
             </h4>
             <div className="works__button">
               <a href="https://dockt-head.vercel.app/">
-                <button>SEE MORE</button>
+                <button className="works__button">SEE MORE</button>
               </a>
             </div>
           </div>
