@@ -34,7 +34,11 @@ function Works() {
               Designed for schools and colleges.
             </h4>
             <div className="works__buttons">
-              <a href="https://www.figma.com/proto/MchiY0fxetJEkZ02JEv1WF/Drona-app?page-id=0%3A1&node-id=30%3A20512&viewport=241%2C48%2C0.04&scaling=scale-down-width">
+              <a
+                target={"_blank"}
+                rel="noreferrer"
+                href="https://www.figma.com/proto/MchiY0fxetJEkZ02JEv1WF/Drona-app?page-id=0%3A1&node-id=30%3A20512&viewport=241%2C48%2C0.04&scaling=scale-down-width"
+              >
                 <button className="works__button">SEE MORE</button>
               </a>
             </div>
@@ -50,7 +54,7 @@ function Works() {
               from every famous Restaurants near by you. Order food with best
               user experience.
             </h4>
-            <Link className="menu__items" to="cookoo">
+            <Link className="menu__items" target={"_blank"} to="cookoo">
               <button className="works__button">SEE MORE</button>
             </Link>
           </div>
@@ -70,7 +74,11 @@ function Works() {
               Designed for schools and colleges.
             </h4>
             <div className="works__buttons">
-              <a href="https://www.figma.com/proto/MyyhYOt5eIh5yTDrvt0rtF/Drona?page-id=0%3A1&node-id=8%3A2&viewport=241%2C48%2C0.11&scaling=scale-down-width">
+              <a
+                target={"_blank"}
+                rel="noreferrer"
+                href="https://www.figma.com/proto/MyyhYOt5eIh5yTDrvt0rtF/Drona?page-id=0%3A1&node-id=8%3A2&viewport=241%2C48%2C0.11&scaling=scale-down-width"
+              >
                 <button className="works__button">SEE MORE</button>
               </a>
             </div>
@@ -86,7 +94,11 @@ function Works() {
               awsome user interface.
             </h4>
             <div className="works__buttons">
-              <a href="https://dockt-head.vercel.app/">
+              <a
+                target={"_blank"}
+                rel="noreferrer"
+                href="https://dockt-head.vercel.app/"
+              >
                 <button className="works__button">SEE MORE</button>
               </a>
             </div>
