@@ -7,7 +7,7 @@
 
 .talks__mainHeading {
   background-image: url(../../images/talk-bg.png);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -128,7 +128,7 @@
 
   .talk {
     margin-left: 0px;
-    margin-top: 0px;
+    margin-top: 50px;
   }
 
   .form-text {
