@@ -1,5 +1,6 @@
 import React from "react";
 import { Element } from "react-scroll";
+import { Link } from "react-router-dom";
 import "./Works.css";
 import Drona from "../../images/Drona.png";
 import CooKoo from "../../images/CooKoo.png";
@@ -32,7 +33,7 @@ function Works() {
               Drona is a easy to use institution management app specially
               Designed for schools and colleges.
             </h4>
-            <div className="works__button">
+            <div className="works__buttons">
               <a href="https://www.figma.com/proto/MchiY0fxetJEkZ02JEv1WF/Drona-app?page-id=0%3A1&node-id=30%3A20512&viewport=241%2C48%2C0.04&scaling=scale-down-width">
                 <button className="works__button">SEE MORE</button>
               </a>
@@ -49,9 +50,9 @@ function Works() {
               from every famous Restaurants near by you. Order food with best
               user experience.
             </h4>
-            <div className="works__button">
+            <Link className="menu__items" to="cookoo">
               <button className="works__button">SEE MORE</button>
-            </div>
+            </Link>
           </div>
           <div className="works__cooKoo">
             <img src={CooKoo} alt="Drona" />
@@ -68,7 +69,7 @@ function Works() {
               Drona is a easy to use institution management app specially
               Designed for schools and colleges.
             </h4>
-            <div className="works__button">
+            <div className="works__buttons">
               <a href="https://www.figma.com/proto/MyyhYOt5eIh5yTDrvt0rtF/Drona?page-id=0%3A1&node-id=8%3A2&viewport=241%2C48%2C0.11&scaling=scale-down-width">
                 <button className="works__button">SEE MORE</button>
               </a>
@@ -84,7 +85,7 @@ function Works() {
               Dockt is a Billing software . we create Dockt landing page with
               awsome user interface.
             </h4>
-            <div className="works__button">
+            <div className="works__buttons">
               <a href="https://dockt-head.vercel.app/">
                 <button className="works__button">SEE MORE</button>
               </a>

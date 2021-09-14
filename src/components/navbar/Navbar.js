@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 import icon from "../../images/logo.png";
 import twitter from "../../images/twitter.png";
@@ -15,22 +15,22 @@ function navbar() {
       </div>
       <div className="navBar__menu">
         <div className="navBar__menuItems">
-          <Link activeClass="active" to="hello" smooth={true}>
+          <Link className="menu__items" to="hello">
             HELLO
           </Link>
         </div>
         <div className="navBar__menuItems">
-          <Link activeClass="active" to="works" smooth={true} offset={0}>
+          <Link className="menu__items" to="works">
             WORKS
           </Link>
         </div>
         <div className="navBar__menuItems">
-          <Link activeClass="active" to="resume" smooth={true}>
+          <Link className="menu__items" to="resume">
             RESUME
           </Link>
         </div>
         <div className="navBar__menuItems">
-          <Link activeClass="active" to="lets-talk" smooth={true} offset={-60}>
+          <Link className="menu__items" to="lets-talk">
             LET'S TALK
           </Link>
         </div>

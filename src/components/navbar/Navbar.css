@@ -4,12 +4,15 @@
 .navBar {
   width: 95%;
   height: 30px;
+  margin-left: 4px;
   background-color: #ffffff;
   padding: 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  top: 0;
   position: fixed;
+  z-index: 100;
 }
 
 .navBar__icon {
@@ -27,13 +30,15 @@
   gap: 60px;
 }
 
-.navBar__menuItems {
+.menu__items {
   font-family: Poppins;
   font-weight: 600;
   font-size: 14px;
+  color: black;
+  text-decoration: none;
 }
 
-.navBar__menuItems:hover {
+.menu__items:hover {
   color: #1300ed;
   cursor: pointer;
 }
@@ -53,16 +58,18 @@
 @media screen and (max-width: 768px) {
   .navBar {
     width: 100%;
-    height: 30px;
+    height: auto;
     background-color: #ffffff;
     padding: 0px;
     display: flex;
     flex-direction: column;
-    position: sticky;
   }
 
   .navBar__icon > img {
-    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
     width: 140px;
   }
 
