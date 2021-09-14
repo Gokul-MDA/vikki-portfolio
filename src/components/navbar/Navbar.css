@@ -76,7 +76,7 @@
   .navBar__menu {
     display: flex;
     flex-flow: row;
-    gap: 30px;
+    gap: 35px;
   }
 
   .navBar__menuItems {
