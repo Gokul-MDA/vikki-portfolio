@@ -1,16 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 .works1 {
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 .works-bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../../images/works-bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
+
 .works__mainHeading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   height: 100vh;
 }
 
 .works__mainHeading > h3 {
+  margin-top: -90px;
   font-family: Poppins;
   font-weight: 700;
   font-size: 52px;
@@ -60,6 +73,7 @@
   color: #373d42;
   font-family: Poppins;
   font-weight: 400;
+  margin-top: -10px;
 }
 
 .works__button {
@@ -139,19 +153,17 @@
 @media screen and (max-width: 768px) {
   .works1 {
     width: 100%;
-    height: max-content;
+    /* height: max-content; */
+    margin-top: 150px;
   }
   .works__mainHeading {
-    margin-top: -30px;
-    margin-bottom: 60px;
-    margin-left: 10px;
-    margin-right: 10px;
-    background-size: 200px;
-    height: 100px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    background-size: contain;
   }
 
   .works__mainHeading > h3 {
@@ -187,7 +199,7 @@
 
   .content-h5 {
     color: #373d42;
-    margin-top: -15px;
+    margin-top: -18px;
     font-size: 10px;
     font-family: Poppins;
     font-weight: 600;
@@ -198,6 +210,7 @@
     font-family: Poppins;
     font-size: 12px;
     font-weight: 400;
+    margin-top: -10px;
   }
 
   .works__button {
@@ -209,6 +222,7 @@
     font-size: 9px;
     height: 37px;
     width: 90px;
+    margin-top: -10px;
     border-radius: 5px;
   }
 
@@ -219,16 +233,17 @@
   .works__imageLeft {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   .works__drona > img {
     height: 200px;
     width: 250px;
-    margin: 0px 0px 0px 80px;
+    margin: 0px 0px 0px 0px;
   }
 
   .works__drona-content {
-    margin: 10px 10px 0px 10px;
+    margin: 0px 10px 0px 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -239,7 +254,7 @@
   .works__cooKoo > img {
     height: 250px;
     width: 250px;
-    margin: 60px 0px 0px 80px;
+    margin: 60px 0px 0px 0px;
     order: 1;
   }
 
@@ -249,7 +264,6 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-
     align-items: center;
     justify-content: center;
   }
@@ -257,7 +271,7 @@
   .works__dronaSoftware > img {
     height: 250px;
     width: 250px;
-    margin: 20px 0px 0px 80px;
+    margin: 20px 0px 0px 0px;
   }
 
   .works__dronaSoftware-content {
@@ -273,12 +287,13 @@
   .works__imageRight {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   .works__dockt > img {
     height: 250px;
     width: 250px;
-    margin: 20px 0px 0px 80px;
+    margin: 20px 0px 0px 0px;
     order: 1;
   }
 

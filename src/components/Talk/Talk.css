@@ -2,13 +2,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap");
 
 .lets-talk {
-  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../../images/talk-bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .talks__mainHeading {
-  background-image: url(../../images/talk-bg.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .talks__mainHeading > h3 {
@@ -16,10 +26,6 @@
   font-weight: 700;
   font-size: 52px;
   color: #1300ed;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 .talks__mainHeading > h4 {
@@ -28,16 +34,6 @@
   font-family: Poppins;
   font-weight: 400;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.talk {
-  margin-left: 300px;
-  /* height: 500px; */
-  margin-top: 00px;
 }
 
 .form-text {
@@ -58,7 +54,7 @@
   border-color: #1300ed;
   border-radius: 5px;
   height: 50px;
-  width: 60%;
+  width: 600px;
 }
 
 .form-textArea {
@@ -81,12 +77,12 @@
   border-radius: 5px;
   border-width: 2px;
   height: 100px;
-  width: 59%;
+  width: 600px;
 }
 
 .form-button {
   height: 50px;
-  width: 61%;
+  width: 600px;
   background-color: #1300ed;
   color: white;
   font-family: Poppins;
@@ -97,9 +93,21 @@
 }
 
 @media screen and (max-width: 768px) {
+  /* .lets-talk {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: 400px;
+    margin-top: 100px;
+    height: 100vh;
+  } */
+
   .lets-talk {
-    width: 100%;
-    margin-top: 90px;
+    background-image: none;
+    height: 80vh;
+    margin-left: 40px;
+    margin-right: 40px;
   }
 
   .talks__mainHeading {
@@ -107,7 +115,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-image: url(../../images/talk-bg.png);
     background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .talks__mainHeading > h3 {

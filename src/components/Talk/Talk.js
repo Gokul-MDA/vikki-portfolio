@@ -9,8 +9,9 @@ function Talk() {
         <div className="talks__mainHeading">
           <h3>Let’s Talk</h3>
           <h4>
-            If you like my works and my designs and mainly you like to hire me
-            contact me. It would be my pleasure to work on the next big idea.
+            If you like my works and my designs and mainly
+            <b> you like to hire me contact me.</b> <br /> It would be my
+            pleasure to work on the next big idea.
           </h4>
         </div>
         <form id="first_name" className="talk">
