@@ -6,6 +6,7 @@ import Drona from "../../images/Drona.png";
 import CooKoo from "../../images/CooKoo.png";
 import DronaSoftware from "../../images/DronaSoftware.png";
 import Dockt from "../../images/Dockt.png";
+import arrow from "../../images/arrow-down.png";
 
 function Works() {
   return (
@@ -20,6 +21,7 @@ function Works() {
               design a product of that idea.
             </h4>
             <h5>Here's a few work that I'd like to share.</h5>
+            <img src={arrow} alt="" />
           </div>
         </div>
         <div className="works__imageLeft">
