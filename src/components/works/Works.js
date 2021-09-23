@@ -38,7 +38,7 @@ function Works() {
               from every famous Restaurants near by you. Order food with best
               user experience.
             </h4>
-            <Link className="menu__items" target={"_blank"} to="cookoo">
+            <Link className="menu__items" to="cookoo">
               <button className="works__button">SEE MORE</button>
             </Link>
           </div>
