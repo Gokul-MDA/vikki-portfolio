@@ -24,10 +24,26 @@ function Works() {
             <img src={arrow} alt="" />
           </div>
         </div>
+
         <div className="works__imageLeft">
-          <div className="works__drona">
-            <img src={Drona} alt="Drona" />
+          <div className="works__cooKoo">
+            <img src={CooKoo} alt="Drona" />
           </div>
+          <div className="works__cooKoo-content">
+            <h3 className="content-h3">CooKoo app</h3>
+            <h5 className="content-h5">Visual Designer (UI/UX)</h5>
+            <h4 className="content-h4">
+              CooKoo is a Food delivery app that provides food deliver at your
+              door step very less timing with best packaging. Providing food
+              from every famous Restaurants near by you. Order food with best
+              user experience.
+            </h4>
+            <Link className="menu__items" target={"_blank"} to="cookoo">
+              <button className="works__button">SEE MORE</button>
+            </Link>
+          </div>
+        </div>
+        <div className="works__imageRight">
           <div className="works__drona-content">
             <h3 className="content-h3">Drona app</h3>
             <h5 className="content-h5">Visual Designer (UI/UX)</h5>
@@ -45,23 +61,8 @@ function Works() {
               </a>
             </div>
           </div>
-        </div>
-        <div className="works__imageRight">
-          <div className="works__cooKoo-content">
-            <h3 className="content-h3">CooKoo app</h3>
-            <h5 className="content-h5">Visual Designer (UI/UX)</h5>
-            <h4 className="content-h4">
-              CooKoo is a Food delivery app that provides food deliver at your
-              door step very less timing with best packaging. Providing food
-              from every famous Restaurants near by you. Order food with best
-              user experience.
-            </h4>
-            <Link className="menu__items" target={"_blank"} to="cookoo">
-              <button className="works__button">SEE MORE</button>
-            </Link>
-          </div>
-          <div className="works__cooKoo">
-            <img src={CooKoo} alt="Drona" />
+          <div className="works__drona">
+            <img src={Drona} alt="Drona" />
           </div>
         </div>
         <div className="works__imageLeft">
