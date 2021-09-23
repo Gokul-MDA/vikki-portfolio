@@ -31,7 +31,7 @@ function Works() {
           </div>
           <div className="works__cooKoo-content">
             <h3 className="content-h3">CooKoo app</h3>
-            <h5 className="content-h5">Visual Designer (UI/UX)</h5>
+            <h5 className="content-h5">UI/UX Designer (Lean UX)</h5>
             <h4 className="content-h4">
               CooKoo is a Food delivery app that provides food deliver at your
               door step very less timing with best packaging. Providing food
